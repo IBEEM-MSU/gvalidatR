@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# commruleR
+# gvalidatorR
 
-### [MSU IBEEM](https://ibeem.msu.edu) commRULES project
+### Developed as part of the  [MSU IBEEM](https://ibeem.msu.edu)
 
 <!-- badges: start -->
 
@@ -15,17 +15,23 @@ status](https://www.r-pkg.org/badges/version/commruleR)](https://CRAN.R-project.
 
 *This is very early version under heavy development.*
 
-This R package is part of 3 repositories that support the data entry,
-validation and accumulation of a meta-analysis for the commRULES
-project.
+## Overview
 
-1.  commRULES data: version controlled data collection for tracking
-    provenance using git, this is the L0 and L1 layers in the EDI
-    framework
-2.  commRuler: commRULES data management code for L0 and L0-\>L1 layer
-    in EDI framework
-3.  commRULES-analysis: R code for reproducible data analysis , L1-\>L2
-    layers in EDI framework
+This R package was design as part of git repositories that support the data entry,
+validation, and accumulation of data for collaborative meta-analysis 
+projects that are depend on Google Sheets for daa entry.  This package
+fits into this workflow as part of the EDI 
+
+1.  data entry using google sheets: data templates, data sheets and data definitions (fields, lists,etc)
+    the origin of this project was data pulled from a literature review / meta anlaysis based on prism
+2.  data transform and validation (this package): read in data from list of google sheets urls,
+    validate using data defintions from step 1, export to CSV files
+3.  data accumulation using git.   The validated CSV outputs from 3 are commited and pushed
+    into a 'data' repository that can then use git for tracking data provenance.  this is the "L0"
+    data layer in the EDI data framework. 
+5.  data analysis:  a final repository that contains code the reads data from L0, wrangles the
+    data as necessary to pull into single data file and performs analysis/visualizations.
+    this corresponds to the L1 layer in the EDI data framework
 
 ## Installation
 
