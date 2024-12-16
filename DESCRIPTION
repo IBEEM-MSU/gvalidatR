@@ -1,12 +1,13 @@
-Package: commruleR
-Title: process 'L0' data for the commRULES projects
-Version: 0.0.0.9100
+Package: gvalidatR
+Title: enabling spreadsheet data entry, validation, and change management using git for research teams
+Version: 0.0.0.9200
 Authors@R: 
     person("Patrick", "Bills", , "billspat@msu.edu", role = c("aut", "cre"),
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: Data management for Community Ecology RULES project of MSU IBEEM, 
-  using the EDI data package framework.  Reads data entered using from google drive
-  and validates using standard set of rules.   
+Description: Enables data entry using Google sheets, rule-based validation based on data definitions, 
+    and export into text-based CSV format for tracking changes to data using git.  designed to part
+    of multiple git repositories (data/rules + analysis + synthesis) for meta analyses and following
+    the data processing levels definitions of the Environmental Data Initiative (L0, L1, L2). 
 License: MIT + file LICENSE
 Suggests: 
     knitr,
