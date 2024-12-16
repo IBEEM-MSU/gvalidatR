@@ -1,6 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
+<img align="right" src="https://avatars.githubusercontent.com/u/87339176?s=200&v=4">
+
+
 # gvalidatorR
 
 ### Developed by the [MSU Institute for Biodiversity, Ecology, Evolution, and Macrosystems (IBEEM)](https://ibeem.msu.edu)  
