@@ -3,7 +3,10 @@
 
 # gvalidatorR
 
-### Developed as part of the [MSU Institute for Biodiversity, Ecology, Evolution, and Macrosystems (IBEEM)](https://ibeem.msu.edu)   github: https://github.com/IBEEM-MSU
+### Developed by the [MSU Institute for Biodiversity, Ecology, Evolution, and Macrosystems (IBEEM)](https://ibeem.msu.edu)  
+
+*in collaboration with the 2024 IBEEM cohort: <br>
+Patrick Bills, Dr. Alejandra Martínez-Blancas, Dr. Laís Petri, Dr. Ashwini Ramesh, Dr. Amar Deep Tiwari, and Dr. Phoebe Zarnetske.*
 
 <!-- badges: start -->
 
@@ -34,6 +37,10 @@ changes as they happen in data sheets and in fact in protocols.
 
 Hence our goal was to explore ways automate data transfer from binary or on-line formats of spreadsheets into text-based format so that we may git and github to track and communicate changes to the data. 
 
+## Background
+
+This package was originally developed to facilitate the meta-analysis project "Community Assembly Rules" 
+at Michigan State University, 
 ## Overview
 
 The goal of the small R package to is help a collaborative research team design and enter data using Google Sheets but
@@ -74,3 +81,10 @@ packages you need to install, which creates an `renv.lock` file for you.
   and open it
 - inside the Rstudio project in the R console,
 -  `renv::restore()`
+
+## Postscript
+
+This package was originally developed to facilitate the meta-analysis project "Community Assembly Rules" 
+at Michigan State University, and hence the former name "commruleR."  The current name is purposefully 
+misspelled as there are several other similarly named repositories and projects on github. 
+
